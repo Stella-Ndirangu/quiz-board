@@ -1,0 +1,57 @@
+body {
+  background-color: #F7B626;
+}
+.heading{
+  text-align: center;
+}
+.page-header{
+  padding-top: 9px;
+  border-color: #00C5C6;
+  background-color: #00C5C6;
+  font-family: 'Cormorant Garamond';
+  color: #fff;
+}
+.page-header h1{
+  font-weight: bold;
+  font-size: 48px;
+}
+.intro .panel-heading{
+  background-color: #30CED1;
+  border-color: #30CED1;
+  color: #fff;
+  font-family: 'Cormorant Garamond';
+}
+.intro h3{
+  font-size: 40px;
+  font-weight: bold;
+}
+.intro .panel{
+  background-color: #00C5C6;
+  text-align: center;
+  border-color: #00C5C6;
+  color: #fff;
+}
+.intro button{
+  background-color: #F7B626;
+  color: #000;
+}
+.intro .panel-body{
+  font-family: 'Roboto+Slab';
+}
+.intro #introp{
+  font-size: 24px;
+  font-weight: 500;
+}
+.intro h4{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#quiz{
+  /*display: none;*/
+}
+#result{
+  text-align: center;
+  display: none;
+
+}
