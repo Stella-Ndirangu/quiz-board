@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>JAVASCRIPT QUIZ BOARD</title>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+  <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading">
+      <div class="page-header">
+        <h1>JAVASCRIPT QUIZ BOARD</h1>
+      </div>
+    </div>
+
+    <div class="intro">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3>Congratulations on finishing the JavaScript course!</h3>
+        </div>
+        <div class="panel-body">
+          <p id="introp"> You have come a long way. Now let's test that knowledge.<br> Each question has 20 points. Please answer all the questions.</p>
+          <h4>All the best!</h4>
+          <button type="button" class="btn btn-info">Start Quiz</button>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div id="quiz">
+      <div class="panel panel-info">
+        <div class="panel-body">
+          <form class="quizboard" action="index.html" method="post">
+            <ol>
+              <li class="question1">
+                <p>What is the correct syntax for referring to an external script called "abc.js"?</p>
+
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q1" value="1">
+                    &lt;script name = 'js/abc.js'></script&gt;
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q2" value="2">
+                    &lt;script src = 'js/abd.js'></script&gt;
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q2" value="3">
+                    &lt;script ref = 'js/abc.js'></script&gt;
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q3" value="4">
+                    &lt;script link = 'js/abc.js'></script&gt;
+                  </label>
+                </div>
+              </li>
+
+              <li class="question2">
+                <p>Is Javascript case sensitve?</p>
+
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q2" value="1">
+                    Yes
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q2" value="2">
+                    No
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q2" value="3">
+                    Sometimes
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q3" value="4">
+                    I don't know
+                  </label>
+                </div>
+              </li>
+
+              <li class="question3">
+                <p>What is the difference in application between a class and an ID?</p>
+
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q3" value="1">
+                    A class is unique but an ID can be used many times
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q3" value="2">
+                    A class can be used many times and an ID is unique
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q3" value="3">
+                    A class is only used on HTML elements but an ID is not
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q3" value="4">
+                    I don't know
+                  </label>
+                </div>
+              </li>
+              <li class="question4">
+                <p>What is the difference between == and === ?</p>
+
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q4" value="1">
+                    == is an assignment operator and === is a comparison operator
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q4" value="2">
+                    == a comparison operator that doesn't check variable type while === is a comparison operator that checks the variable type
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q4" value="3">
+                    All the above
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q4" value="4">
+                    None of the above
+                  </label>
+                </div>
+              </li>
+              <li class="question5">
+                <p>How do you create a function in JavaScript?</p>
+
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q5" value="1">
+                    function:myFunction()
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q5" value="2">
+                    function:myFunction()
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q5" value="3">
+                    function myFunction()
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q5" value="4">
+                    None of the above
+                  </label>
+                </div>
+              </li>
+              <li class="question6">
+                <p>How do you write an IF statement in JavaScript?</p>
+
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q6" value="1">
+                    if i=5
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q6" value="2">
+                    if i == 5
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q6" value="3">
+                    if i = 5 then
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q5" value="4">
+                    if (i == 5)
+                  </label>
+                </div>
+              </li>
+              <li class="question7">
+                <p>How can you add a comment in a JavaScript?</p>
+
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q7" value="1">
+                    /*This is a comment*/
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q7" value="2">
+                    &lt!--This is a comment--&gt;
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q7" value="3">
+                    //This is a comment
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q7" value="4">
+                    "This is a comment"
+                  </label>
+                </div>
+              </li>
+              <li class="question8">
+                <p>What is the correct way to write a JavaScript array?</p>
+
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q8" value="1">
+                    var birds = "dove", "pigeon", "owl"
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q8" value="2">
+                    var birds = (1."dove", 2."pigeon", 3."owl")
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q8" value="3">
+                    var birds = ["dove","pigeon","owl"]
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q8" value="4">
+                    var birds = 1 = ("dove"), 2 = ("pigeon"), 3 = ("owl")
+                  </label>
+                </div>
+              </li>
+              <li class="question9">
+                <p>Which event occurs when the user clicks on an HTML element?</p>
+
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q9" value="1">
+                    onclick
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q9" value="2">
+                    onmouseover
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q9" value="3">
+                    onchange
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q9" value="4">
+                    onmouseclick
+                  </label>
+                </div>
+              </li>
+              <li class="question10">
+                <p>Which of the following functions of string object combines the text of two strings and returns a new string?</p>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q10" value="1">
+                    add()
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q10" value="2">
+                    concat()
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q10" value="3">
+                    merge()
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="q10" value="4">
+                    append()
+                  </label>
+                </div>
+              </li>
+              <br>
+              <button type="submit" class="btn">Submit</button>
+            </ol>
+          </form>
+
+          </div>
+
+
+        </div>
+      </div>
+      <div id="result">
+        <div class="well">
+          <h2>You score is</h2>
+        </div>
+      </div>
+
+
+
+    </div>
+</body>
+
+</html>
