@@ -33,12 +33,17 @@ body {
 }
 .intro button{
   background-color: #F7B626;
-  color: #000;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn {
+  padding: 10px 20px;
 }
 .intro .panel-body{
   font-family: 'Roboto+Slab';
 }
-.intro #introp{
+.intro p{
   font-size: 24px;
   font-weight: 500;
 }
@@ -46,12 +51,30 @@ body {
   font-size: 28px;
   font-weight: 500;
 }
-
+#quiz .panel{
+  background-color: #00C5C6;
+  border-color: #00C5C6;
+  color: #fff;
+}
+#quiz ol{
+  font-size: 22px;
+}
+#quiz button{
+  background-color: #F7B626;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
 #quiz{
-  /*display: none;*/
+  display: none;
 }
 #result{
   text-align: center;
   display: none;
 
+}
+#result .well{
+  background-color: #00C5C6;
+  border-color: #00C5C6;
+  color: #fff;
 }
