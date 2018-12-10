@@ -25,8 +25,7 @@ $(document).ready(function() {
     alert(userAnswers);
     var score = userAnswers.reduce(scoreTotal);
     alert(score);
-
-
+    $(".userScore").text(score);
 
     $("#quiz").hide();
     $("#result").show();
