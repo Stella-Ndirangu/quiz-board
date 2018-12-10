@@ -5,6 +5,7 @@
 The Quiz board is as an online page that has Javascript questions. The quiz was created to test the knowledge of students who just completed a a course on JavaScript. The quiz has 10 questions. Each question is worth 20 points. The has multiple choice questions where the user is supposed to pick the correct answer based on the choices given. After completing the quiz and submitting it, the application shows their total score.
 ## Setup/Installation Requirements
 * Web Browser
+* You can find it here: https://stella-ndirangu.github.io/quiz-board/
 ## Specifications
 1. The application displays the form with the quiz.
 * Input: "(Click on 'Start Quiz' button)"
