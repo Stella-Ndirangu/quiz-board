@@ -82,3 +82,9 @@ body {
   border-color: #00C5C6;
   color: #fff;
 }
+#result button{
+  background-color: #F7B626;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
