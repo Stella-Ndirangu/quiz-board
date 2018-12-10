@@ -28,9 +28,8 @@ $(document).ready(function() {
         var inputAnswers = parseInt($("input:radio[name = q"+i+"]:checked").val());
         userAnswers.push(inputAnswers);
       }
-      alert(userAnswers);
       var score = userAnswers.reduce(scoreTotal);
-      alert(score);
+
       $(".userScore").text(score);
 
       $("#quiz").hide();
