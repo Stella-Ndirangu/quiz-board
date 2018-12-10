@@ -15,9 +15,9 @@ The Quiz board is as an online page that has Javascript questions. The quiz was 
 3. The Application accepts answers when Submit button is clicked
 * Input: "(All questions answered and click on Submit button)"
 * Output: Displays the total score achieved
-4. The application displays all the answers from the quiz after initial submission.
-* Input: "(Click on 'Quiz answers' button)"
-* Output: Displays all questions and their answers
+4. The application redirects user to retake the test.
+* Input: "(Click on 'Retake the Quiz' button)"
+* Output: Refreshes the page to display the quiz again
 ## Known Bugs
 There are no known bugs.
 
