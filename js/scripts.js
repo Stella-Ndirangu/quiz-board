@@ -34,6 +34,7 @@ $(document).ready(function() {
 
       $("#quiz").hide();
       $("#result").show();
+      
       } else {
         alert ('Please answer all questions');
     }
