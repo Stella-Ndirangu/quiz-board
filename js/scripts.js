@@ -42,3 +42,12 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
+
+$(document).ready(function() {
+  $("#resultQuiz").click(function(event) {
+    $("#result").hide();
+    $("#quizAnswers").show();
+
+    event.preventDefault();
+  });
+});
