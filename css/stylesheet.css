@@ -15,6 +15,10 @@ body {
   font-weight: bold;
   font-size: 48px;
 }
+.intro .panel{
+  margin-top: 100px;
+  box-shadow: 5px 20px 28px #888888;
+}
 .intro .panel-heading{
   background-color: #30CED1;
   border-color: #30CED1;
