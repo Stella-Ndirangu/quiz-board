@@ -78,6 +78,7 @@ body {
 
 }
 #result .well{
+  box-shadow: 5px 20px 28px #888888;
   background-color: #00C5C6;
   border-color: #00C5C6;
   color: #fff;
