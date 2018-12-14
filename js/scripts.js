@@ -1,8 +1,9 @@
+// Business Logic
 function scoreTotal(total, num){
   return total + num;
 }
 
-
+// User Iinterface Logic
 $(document).ready(function() {
   $("#startQuiz").click(function(event) {
     $(".intro").hide();
@@ -34,7 +35,7 @@ $(document).ready(function() {
 
       $("#quiz").hide();
       $("#result").show();
-      
+
       } else {
         alert ('Please answer all questions');
     }
